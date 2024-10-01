@@ -1,4 +1,4 @@
-import { Menu } from "lucide-react";
+import { LockIcon, Menu } from "lucide-react";
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -16,6 +16,7 @@ import { SidebarNavLink } from "./sidebar";
 import { page_routes } from "@/lib/routes-config";
 import ThemeSwitch from "../theme-switch";
 import { Fragment } from "react";
+import Link from "next/link";
 
 export default function Header() {
   return (
@@ -45,14 +46,26 @@ export default function Header() {
             <div className="mt-auto">
               <Card>
                 <CardHeader>
-                  <CardTitle>Upgrade to Pro</CardTitle>
+                  <CardTitle>Get Shadcn UI Kit Pro</CardTitle>
                   <CardDescription>
-                    Unlock all features and get unlimited access to our support team.
+                    Need more pages and components? Then you can get the pro.
                   </CardDescription>
                 </CardHeader>
-                <CardContent>
-                  <Button size="sm" className="w-full">
-                    Upgrade
+                <CardContent className="space-y-2">
+                  <Button
+                    size="sm"
+                    className="w-full items-center bg-gradient-to-r from-indigo-700 via-purple-500 to-pink-700 hover:opacity-90"
+                    asChild>
+                    <Link
+                      href="https://bundui.lemonsqueezy.com/buy/385ebdb6-6193-4d37-9148-057ab89b9c8d"
+                      target="_blank">
+                      <LockIcon className="me-2 h-4 w-4" /> Get Lifetime Access
+                    </Link>
+                  </Button>
+                  <Button size="sm" className="w-full" variant="outline" asChild>
+                    <Link href="https://shadcnuikit.com/" target="_blank">
+                      Learn More
+                    </Link>
                   </Button>
                 </CardContent>
               </Card>
@@ -61,16 +74,6 @@ export default function Header() {
         </Sheet>
         <div className="w-full flex-1">
           <Search />
-          {/* <form>
-            <div className="relative">
-              <Search className="absolute left-2.5 top-2.5 h-4 w-4 text-muted-foreground" />
-              <Input
-                type="search"
-                placeholder="Search products..."
-                className="w-full appearance-none bg-background pl-8 shadow-none md:w-2/3 lg:w-1/3"
-              />
-            </div>
-          </form> */}
         </div>
         <ThemeSwitch />
         <DropdownMenu>
