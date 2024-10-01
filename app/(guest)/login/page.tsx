@@ -10,7 +10,7 @@ export async function generateMetadata() {
     title: "Login Page - Shadcn UI Kit Free",
     description:
       "A login form with email and password. There's an option to login with Google and a link to sign up if you don't have an account.",
-    canonical: "/login/v1"
+    canonical: "/login"
   });
 }
 
@@ -63,9 +63,7 @@ export default function LoginPageV1() {
                 />
               </div>
               <div className="text-end">
-                <Link
-                  href="/dashboard/forgot-password"
-                  className="ml-auto inline-block text-sm underline">
+                <Link href="#" className="ml-auto inline-block text-sm underline">
                   Forgot your password?
                 </Link>
               </div>
@@ -118,7 +116,7 @@ export default function LoginPageV1() {
 
             <div className="mt-6 text-center text-sm">
               Don&apos;t have an account?{" "}
-              <Link href="/dashboard/register/v1" className="underline">
+              <Link href="/register" className="underline">
                 Sign up
               </Link>
             </div>

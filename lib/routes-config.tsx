@@ -38,8 +38,8 @@ export const page_routes: PageRoutesType[] = [
         href: "/",
         icon: "Fingerprint",
         items: [
-          { title: "Login", href: "/dashboard/login" },
-          { title: "Register", href: "/dashboard/register" }
+          { title: "Login", href: "/login" },
+          { title: "Register", href: "/register" }
         ]
       },
       {
@@ -47,8 +47,8 @@ export const page_routes: PageRoutesType[] = [
         href: "/",
         icon: "Fingerprint",
         items: [
-          { title: "404", href: "/dashboard/pages/error/404" },
-          { title: "500", href: "/dashboard/pages/error/500" }
+          { title: "404", href: "/pages/error/404" },
+          { title: "500", href: "/pages/error/500" }
         ]
       }
     ]

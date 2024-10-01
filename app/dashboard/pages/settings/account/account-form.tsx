@@ -28,7 +28,6 @@ import {
 } from "@/components/ui/form";
 import { Input } from "@/components/ui/input";
 import { Popover, PopoverContent, PopoverTrigger } from "@/components/ui/popover";
-import { toast } from "@/components/ui/use-toast";
 
 const languages = [
   { label: "English", value: "en" },
@@ -73,16 +72,7 @@ export function AccountForm() {
     defaultValues
   });
 
-  function onSubmit(data: AccountFormValues) {
-    toast({
-      title: "You submitted the following values:",
-      description: (
-        <pre className="mt-2 w-[340px] rounded-md bg-slate-950 p-4">
-          <code className="text-white">{JSON.stringify(data, null, 2)}</code>
-        </pre>
-      )
-    });
-  }
+  function onSubmit(data: AccountFormValues) {}
 
   return (
     <Form {...form}>

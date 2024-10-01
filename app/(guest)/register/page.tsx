@@ -9,7 +9,7 @@ export async function generateMetadata() {
     title: "Register Page - Shadcn UI Kit Free",
     description:
       "A login form with email and password. There's an option to login with Google and a link to sign up if you don't have an account.",
-    canonical: "/register/v1"
+    canonical: "/register"
   });
 }
 
@@ -125,7 +125,7 @@ export default function LoginPageV1() {
 
             <p className="mt-6 text-center text-sm text-gray-600">
               Already have an account?{" "}
-              <a href="/dashboard/login/v1" className="text-primary hover:underline">
+              <a href="/login" className="text-primary hover:underline">
                 Log in
               </a>
             </p>

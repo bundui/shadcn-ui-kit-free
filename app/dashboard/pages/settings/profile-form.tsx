@@ -25,7 +25,6 @@ import {
   SelectValue
 } from "@/components/ui/select";
 import { Textarea } from "@/components/ui/textarea";
-import { toast } from "@/components/ui/use-toast";
 
 const profileFormSchema = z.object({
   username: z
@@ -71,16 +70,7 @@ export function ProfileForm() {
     control: form.control
   });
 
-  function onSubmit(data: ProfileFormValues) {
-    toast({
-      title: "You submitted the following values:",
-      description: (
-        <pre className="mt-2 w-[340px] rounded-md bg-slate-950 p-4">
-          <code className="text-white">{JSON.stringify(data, null, 2)}</code>
-        </pre>
-      )
-    });
-  }
+  function onSubmit(data: ProfileFormValues) {}
 
   return (
     <Form {...form}>

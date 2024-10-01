@@ -17,9 +17,7 @@ export async function generateMetadata() {
 }
 
 async function getUsers() {
-  const data = await fs.readFile(
-    path.join(process.cwd(), "app/dashboard/(auth)/pages/users/data.json")
-  );
+  const data = await fs.readFile(path.join(process.cwd(), "app/dashboard/pages/users/data.json"));
   return JSON.parse(data.toString());
 }
 
