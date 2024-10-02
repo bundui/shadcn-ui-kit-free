@@ -1,5 +1,5 @@
 import { Separator } from "@/components/ui/separator";
-import { SidebarNav } from "./components/sidebar-nav";
+import { SidebarNav } from "./sidebar-nav";
 import { generateMeta } from "@/lib/utils";
 
 export async function generateMetadata() {
@@ -18,19 +18,19 @@ const sidebarNavItems = [
   },
   {
     title: "Account",
-    href: "/dashboard/pages/settings/account"
+    href: "#"
   },
   {
     title: "Appearance",
-    href: "/dashboard/pages/settings/appearance"
+    href: "#"
   },
   {
     title: "Notifications",
-    href: "/dashboard/pages/settings/notifications"
+    href: "#"
   },
   {
     title: "Display",
-    href: "/dashboard/pages/settings/display"
+    href: "#"
   }
 ];
 

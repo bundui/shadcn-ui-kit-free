@@ -24,14 +24,7 @@ export const page_routes: PageRoutesType[] = [
       {
         title: "Settings",
         href: "/dashboard/pages/settings",
-        icon: "Settings",
-        items: [
-          { title: "Profile", href: "/dashboard/pages/settings" },
-          { title: "Account", href: "/dashboard/pages/settings/account" },
-          { title: "Appearance", href: "/dashboard/pages/settings/appearance" },
-          { title: "Notifications", href: "/dashboard/pages/settings/notifications" },
-          { title: "Display", href: "/dashboard/pages/settings/display" }
-        ]
+        icon: "Settings"
       },
       {
         title: "Authentication",

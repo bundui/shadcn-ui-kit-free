@@ -1,4 +1,3 @@
-import Providers from "@/components/providers";
 import MainLayout from "@/components/main-layout";
 
 export default function AuthLayout({
@@ -6,9 +5,5 @@ export default function AuthLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  return (
-    <Providers>
-      <MainLayout>{children}</MainLayout>
-    </Providers>
-  );
+  return <MainLayout>{children}</MainLayout>;
 }

@@ -14,7 +14,6 @@ import Search from "./search";
 import Logo from "./logo";
 import { SidebarNavLink } from "./sidebar";
 import { page_routes } from "@/lib/routes-config";
-import ThemeSwitch from "../theme-switch";
 import { Fragment } from "react";
 import Link from "next/link";
 
@@ -75,7 +74,6 @@ export default function Header() {
         <div className="w-full flex-1">
           <Search />
         </div>
-        <ThemeSwitch />
         <DropdownMenu>
           <DropdownMenuTrigger asChild>
             <figure className="cursor-pointer">
