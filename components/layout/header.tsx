@@ -55,10 +55,8 @@ export default function Header() {
                     size="sm"
                     className="w-full items-center bg-gradient-to-r from-indigo-700 via-purple-500 to-pink-700 hover:opacity-90"
                     asChild>
-                    <Link
-                      href="https://bundui.lemonsqueezy.com/buy/385ebdb6-6193-4d37-9148-057ab89b9c8d"
-                      target="_blank">
-                      <LockIcon className="me-2 h-4 w-4" /> Get Lifetime Access
+                    <Link href="https://shadcnuikit.com/pricing" target="_blank">
+                      <LockIcon className="me-2 h-4 w-4" /> Get Pro
                     </Link>
                   </Button>
                   <Button size="sm" className="w-full" variant="outline" asChild>
