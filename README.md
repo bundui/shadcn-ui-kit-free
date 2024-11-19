@@ -14,7 +14,7 @@
     <br />
     <a href="https://shadcnuikit.com/">Home Page</a>
     &nbsp;&bull;&nbsp;
-    <a href="https://shadcnuikit.com/dashboard">Dashboards</a>
+    <a href="https://shadcnuikit.com/dashboard/default">Dashboards</a>
     &nbsp;&bull;&nbsp;
     <a href="https://shadcnuikit.com/templates">Templates</a>
     &nbsp;&bull;&nbsp;
@@ -33,24 +33,24 @@
 
 Get lifetime use of the premium version of Shadcn UI Kit with hundreds of UI components, dashboards, website templates and pre-built pages. Free updates, newly added components and templates are also included.
 
-| Free Version   | [Shadcn UI Kit PRO](https://shadcnuikit.com) |
-| -------------- | -------------------------------------------- |
-| 1 Dashboard    | ✔ 7+ Dashboards                             |
-| 5+ Pages       | ✔ 30+ Pages                                 |
-| 1 Color Scheme | ✔ 10+ Web Apps                              |
-|                | ✔ Premium Components                        |
-|                | ✔ Premium Templates                         |
-|                | ✔ 5+ Color Schemes                          |
-|                | ✔ Dark/Light Mode 🌙                        |
-|                | ✔ RTL Support                               |
-|                | ✔ Compact Sidebar                           |
-|                | ✔ Multiple Layouts                          |
-|                | ✔ and more..                                |
+| Free Version   | [Shadcn UI Kit PRO](https://shadcnuikit.com/pricing) |
+| -------------- | ---------------------------------------------------- |
+| 1 Dashboard    | ✔ 7+ Dashboards                                     |
+| 5+ Pages       | ✔ 30+ Pages                                         |
+| 1 Color Scheme | ✔ 10+ Web Apps                                      |
+|                | ✔ Premium Components                                |
+|                | ✔ Premium Templates                                 |
+|                | ✔ 5+ Color Schemes                                  |
+|                | ✔ Dark/Light Mode 🌙                                |
+|                | ✔ RTL Support                                       |
+|                | ✔ Compact Sidebar                                   |
+|                | ✔ Multiple Layouts                                  |
+|                | ✔ and more..                                        |
 
-✅ [Click here](https://bundui.lemonsqueezy.com/buy/385ebdb6-6193-4d37-9148-057ab89b9c8d) to get the Shadcn UI Kit and review it in detail
+✅ [Click here](https://shadcnuikit.com/pricing) to get the Shadcn UI Kit and review it in detail
 
 ## ✉️ Contact
 
-Toby Belhome - [@TobyBelhome](https://x.com/TobyBelhome) - contact@shadcnuikit.com
+Toby Belhome - [@TobyBelhome](https://x.com/TobyBelhome)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
