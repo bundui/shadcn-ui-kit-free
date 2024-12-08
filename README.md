@@ -35,15 +35,16 @@ Get lifetime use of the premium version of Shadcn UI Kit with hundreds of UI com
 
 | Free Version   | [Shadcn UI Kit PRO](https://shadcnuikit.com/pricing) |
 | -------------- | ---------------------------------------------------- |
-| 1 Dashboard    | ✔ 7+ Dashboards                                     |
-| 5+ Pages       | ✔ 30+ Pages                                         |
+| 1 Dashboard    | ✔ 10 Dashboards                                     |
+| 5+ Pages       | ✔ 50+ Pages                                         |
 | 1 Color Scheme | ✔ 10+ Web Apps                                      |
-|                | ✔ Premium Components                                |
+|                | ✔ 100+ Premium Components                           |
 |                | ✔ Premium Templates                                 |
 |                | ✔ 5+ Color Schemes                                  |
+|                | ✔ Theme Customization                               |
 |                | ✔ Dark/Light Mode 🌙                                |
-|                | ✔ RTL Support                                       |
-|                | ✔ Compact Sidebar                                   |
+|                | ✔ LTR/RTL Support                                   |
+|                | ✔ New Sidebar                                       |
 |                | ✔ Multiple Layouts                                  |
 |                | ✔ and more..                                        |
 
